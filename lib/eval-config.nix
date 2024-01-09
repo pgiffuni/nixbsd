@@ -80,9 +80,7 @@ let
     config = {
       _module.args = {
         inherit noUserModules baseModules extraModules modules;
-        # Please don't use this other than in the nixpkgs module,
-        # If you import it you won't get config and overlays
-        _nixbsdNixpkgsPath = nixpkgsPath;
+        modulesPath = "${nixpkgsPath}/nixos/modules";
       };
     };
   };

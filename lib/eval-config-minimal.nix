@@ -33,7 +33,7 @@ let
       inherit prefix modules;
       class = "nixbsd";
       specialArgs = {
-        modulesPath = builtins.toString ../modules;
+        nixbsdModulesPath = builtins.toString ../modules;
       } // specialArgs;
     };
 

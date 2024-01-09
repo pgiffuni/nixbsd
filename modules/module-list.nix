@@ -5,6 +5,8 @@ in [
   "${extPath}/config/system-environment.nix"
   "${extPath}/misc/assertions.nix"
   "${extPath}/misc/ids.nix"
+  "${extPath}/misc/man-db.nix"
+  "${extPath}/misc/mandoc.nix"
   "${extPath}/misc/meta.nix"
   "${extPath}/misc/nixpkgs.nix"
   "${extPath}/misc/version.nix"
@@ -27,6 +29,7 @@ in [
   ./config/system-path.nix
   ./config/user-class.nix
   ./config/users-groups.nix
+  ./misc/documentation.nix
   ./misc/extra-arguments.nix
   ./programs/services-mkdb.nix
   ./programs/shutdown.nix

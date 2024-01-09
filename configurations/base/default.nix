@@ -3,6 +3,8 @@
 
   users.users.root.initialPassword = "toor";
 
+  documentation.man.enable = true;
+
   users.users.bestie = {
     isNormalUser = true;
     description = "your bestie";
